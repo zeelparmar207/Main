@@ -4,14 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marksheet</title>
+  <style>
+    @media screen and(max-width:768px){
+         .flex{flex-direction: column;}
+    }
+  </style>
 </head>
-<body>
-  <div>
+<body style="display: flex;">
+  <div class="flex">
     <header style="border:solid;">
       <h3 style="text-align: center;">Gujarat Secondary & Higher Secondary Education Board, Gandhingar</h3>
-      <p style="text-align: center;">Examination Wing, vadodara</p>
-      <p style="text-align: center;">Statement of Marks</p>
-      
+      <div style="display: flex;">
+        <div style="width: 5%;">
+            <img width="100" src="/Main/img/logo.jpeg" alt="sign"> 
+        </div>
+        <div style="width:90%">
+        <p style="text-align: center;">Examination Wing, vadodara</p>
+        <p style="text-align: center;">Statement of Marks</p>
+        </div>
+        <div style="width:5%">
+            <p>12345</p>
+            </div>
+      </div>
       <p> This is to certify that</p>
       <p>PARMAR ZEEL KETANBHAI</p>
     <p>has acquired following in the Secondary School Certificate Examination. </p>
@@ -32,7 +46,7 @@
             </tr>
         </tr>
     </thead>
-    <table border="1" style="border-collapse: collapse; border:1px solid black;">
+    <table width="100%" border="1" style="border-collapse: collapse; border:1px solid black;">
     <thead>
       <tr>
            <th>NAME OF THE SUBJECT WITH CODE NO.</th>
@@ -138,14 +152,21 @@
     <thead>
     <tr>
       <td>IMPORTANT: Any change in this document except by the Issuing Authority will result in cancellation of The document and shall also invokea imposition of speropriate legal action</td>
-      <td rowspan="2">ghfghgjgjghjgjgjg</td>
-      <td rowspan="2">jhjhgjhjhjjhjgjgjgjgg</td>
+      <td rowspan="2">
+        <img width="100" src="/Main/img/logo.jpeg" alt="sign">
+       </td>
+      <td rowspan="2" style="text-align: center;">
+        <img width="100" src="/Main/img/pngegg.png" alt="sign">EXAMINATION SECRETARY
+      </td>
     </tr>
     <tr>
       <td>(i)XO:indicates Exempton (3.33%)<br/>(ii)AO:indicates 'Absent'.</td>
     </tr>
     </table>
     </header>
+    <footer>
+        <p>To qualify for a subject a candidate has to score mnimum 23 marks out of 70 in board exam and 10 marks out of 30 in school internal evaluation.</p>
+    </footer>
   </div>
 </body>
 </html>
